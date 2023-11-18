@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 24px 0;
+  box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+body {
+  background: #fafafa;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1%;
+  row-gap: 30px;
+  margin-top: 48px;
+}
+
+.card {
+  flex: 1;
+  min-width: 264px;
+  max-width: 264px;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.03);
+}
+
+.card-text {
+  padding: 24px;
+}
+
+.card-text .card-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.search {
+  padding-top: 48px;
+}
+
+.search label {
+  position: relative;
+}
+
+.search label input {
+  width: 100%;
+  height: 100%;
+  max-width: 480px;
+  max-height: 56px;
+  padding: 18px 24px 18px 64px;
+  outline: none;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.95px);
+  border-radius: 10px;
+}
+
+.search img {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    transform: translate(-50%, -50%);
+}
